@@ -14,11 +14,16 @@ body{
     border-bottom: 2px white solid;
 }
 
-.nav-bar-btn{
+.nav-link{
     border: none;
     background-color: transparent;
     color: white;
     font-family: "Creepster", system-ui;
     font-size: 35px;
     text-shadow: 0px 0px 60px black;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+  opacity: 0.8;
 }
